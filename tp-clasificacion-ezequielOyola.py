@@ -23,7 +23,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 
-df = pd.read_csv("C:/Users/foyol/Desktop/paradigmas/TP-estadistica/heart.csv")
+df = pd.read_csv("/heart.csv")
 
 print("\nDESCRIPCION DE LA TABLA")
 print(df.describe())
